@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>CSS Registration Form</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/default.css"/>
+    </head>
+    <body>    
+        <form action="" class="register">
+            <h1>Add New Employee</h1>
+            <fieldset class="row1">
+                <legend>Account Details
+                </legend>
+                <p>
+                    <label>Email *
+                    </label>
+                    <input type="text" name="txtemail"/>
+                </p>
+            </fieldset>
+            <fieldset class="row2">
+                <legend>Personal Details
+                </legend>
+                <p>
+                    <label>First Name *
+                    </label>
+                    <input type="text" name="txtname" class="long"/>
+                </p>
+                <p>
+                    <label>Middle Name*
+                    </label>
+                    <input type="text" name="txtmiddle" class="long"/>
+                </p>
+                <p>
+                    <label class="optional">Last Name*
+                    </label>
+                    <input type="text" name="txtlast" class="long"/>
+                </p>
+                <p>
+                    <label>Phone No. *
+                    </label>
+                    <input type="text" name="txtphno" class="long"/>
+                </p>
+                  <p>
+                    <label>Address *
+                    </label>
+                    <textarea name="txtaddress" rows="5" columns="100"></textarea>
+                </p>
+              <p>
+                    <label>City *
+                    </label>
+                    <input type="text" name="txtcity" class="long"/>
+                </p>
+                 <p>
+                    <label>Pincode. *
+                    </label>
+                    <input type="text" name="txtpincode" class="long"/>
+                </p>
+              <p>&nbsp;</p>
+                </p>
+            </fieldset>
+            <fieldset class="row3">
+                <legend>Further Information
+                </legend>
+                <p>
+                    <label>Gender *</label>
+                    <input type="radio" name="gender" value="M"/>
+                    <label class="gender">Male</label>
+                    <input type="radio" name="gender" value="F"/>
+                    <label class="gender">Female</label>
+                </p>
+                <p>
+                  <label>Date Of Joining *
+                    </label>
+                  <input type="text" name="txtdoj" maxlength="10"/>
+                </p>
+                <p>
+                    <label>Designation *
+                    </label>
+                    <select name="designation">
+                      <option>Officer
+                      </option>
+                      <option>Clerk
+                      </option>
+                    </select>
+                </p>
+                <div class="infobox"></div>
+            </fieldset>
+            <fieldset class="row4">
+              <legend></legend>
+</fieldset>
+            
+                   <input type="submit" value="Add Employee" name="btnsubmit" onfocus="return validate_form(form)" class="button" />
+        </form>
+    </body>
+</html>
+
+
+
+
+

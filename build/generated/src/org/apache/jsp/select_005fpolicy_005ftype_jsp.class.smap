@@ -1,0 +1,14 @@
+SMAP
+select_005fpolicy_005ftype_jsp.java
+JSP
+*S JSP
+*F
++ 0 select_policy_type.jsp
+select_policy_type.jsp
+*L
+5,5:53
+11,7:12
+17,2:57
+21,24:61
+44,25:85
+*E

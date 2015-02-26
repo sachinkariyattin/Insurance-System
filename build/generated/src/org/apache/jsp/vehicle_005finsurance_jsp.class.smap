@@ -1,0 +1,22 @@
+SMAP
+vehicle_005finsurance_jsp.java
+JSP
+*S JSP
+*F
++ 0 vehicle_insurance.jsp
+vehicle_insurance.jsp
+*L
+5,6:144
+11,98:12
+108:149
+110,9:151
+118:160
+120,7:162
+126,165:169
+291,3:335
+293:338
+294:339,3
+295:342
+296,2:344
+297,5:346
+*E
